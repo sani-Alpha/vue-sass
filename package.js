@@ -1,8 +1,8 @@
 Package.describe({
   name: 'sanidhya:vue-sass',
   version: '0.1.3',
-  summary: 'Add sass and scss support for vue components',
-  git: 'https://github.com/Akryum/meteor-vue-component',
+  summary: 'Forked versoion of arkyum:vue-sass.\nAdded sass and scss support for vue components',
+  git: 'https://github.com/sani-Alpha/vue-sass',
   documentation: 'README.md',
 })
 
