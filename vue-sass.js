@@ -19,7 +19,7 @@ function resolveImport (dependencyManager) {
       resolvedFilename = path.resolve(currentDirectory, url)
     }
     const importPaths = [resolvedFilename]
-    const pkg = require('package.json') // can not be moved outside. Reqired here to get the package.json of the project that is being run
+    const pkg = require('package.json') // can not be moved outside. Required here to get the package.json of the project that is being run
 
     try {
       // get the package.json config option and create paths for the requested file.
